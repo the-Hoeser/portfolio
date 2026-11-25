@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { imageStudies, projects } from "./content";
 import "./styles.css";
+import "./motion.css";
 
 const ArrowUpRight = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" /></svg>;
 const ArrowDown = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15m-6-6 6 6 6-6" /></svg>;
@@ -126,6 +127,23 @@ function App() {
     });
     return () => observer.disconnect();
   }, []);
+
+
+  useEffect(() => {
+    const targets = document.querySelectorAll(".section-heading, .project-card, .journal-intro, .journal-empty, .collection-card, .about-content, .site-footer");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return;
+    targets.forEach((node) => node.classList.add("reveal-on-scroll"));
+    const observer = new IntersectionObserver((entries, activeObserver) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          activeObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
+    targets.forEach((node) => observer.observe(node));
+    return () => observer.disconnect();
+  }, [projectFilter]);
 
   const filters = ["ALL", "AI", "PRODUCT", "INDUSTRIAL"];
 
