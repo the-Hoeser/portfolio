@@ -49,6 +49,7 @@ Read these in order before implementing:
 2. [ANTIGRAVITY_HANDOFF.md](./ANTIGRAVITY_HANDOFF.md) — current implementation state and next-agent handoff.
 3. [PROJECT_PLAN.md](./PROJECT_PLAN.md) — product goals, information architecture, data model, security, roadmap and acceptance criteria.
 4. [DESIGN_REFERENCE.md](./DESIGN_REFERENCE.md) — Figma screen links, design tokens and known design cleanup.
+5. [IMPLEMENTATION_STATUS.md](./IMPLEMENTATION_STATUS.md) — verified completed work, current limitations and next action.
 
 ## Repository structure
 
