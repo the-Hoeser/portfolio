@@ -43,6 +43,12 @@
 - DESIGN_REFERENCE.md — exact Figma links, tokens and design notes.
 - IMPLEMENTATION_STATUS.md — this current-state record.
 
+## Design export status
+
+- Portable design tokens are now committed at design/tokens.json and design/tokens.css.
+- design/figma/README.md documents the intended export package, native .fig handoff and individual screen/vector/image export paths.
+- The native editable .fig source and original layer-level image/vector exports are still pending. The Figma MCP export endpoint is currently rate-limited for the connected Starter team/seat. The owner can export a local .fig copy from Figma (File → Save local copy) and upload it into this handoff; then it can be committed under design/figma/source/.
+
 ## Not implemented yet
 
 - No Supabase client or environment configuration.
