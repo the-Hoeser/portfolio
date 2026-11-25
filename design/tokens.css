@@ -1,0 +1,33 @@
+:root {
+  /* Rudra — A Life in Progress: portable design tokens */
+  --archive-paper: #F3F1E9;
+  --archive-paper-deep: #E9E5D9;
+  --archive-forest: #1E3028;
+  --archive-sage: #DCE1D4;
+  --archive-ink: #202820;
+  --archive-ink-soft: #566056;
+  --archive-line: #D5D3C8;
+  --archive-clay: #A85F43;
+  --archive-green: #708B65;
+  --archive-white: #FFFFFF;
+
+  --archive-font-display: "Instrument Serif", Georgia, serif;
+  --archive-font-body: "DM Sans", Arial, sans-serif;
+  --archive-font-mono: "DM Mono", monospace;
+
+  --archive-space-1: 4px;
+  --archive-space-2: 8px;
+  --archive-space-3: 12px;
+  --archive-space-4: 16px;
+  --archive-space-6: 24px;
+  --archive-space-8: 32px;
+  --archive-space-12: 48px;
+  --archive-space-16: 64px;
+  --archive-space-20: 80px;
+
+  --archive-radius-none: 0;
+  --archive-radius-small: 4px;
+  --archive-radius-medium: 8px;
+  --archive-radius-large: 14px;
+  --archive-radius-pill: 999px;
+}
