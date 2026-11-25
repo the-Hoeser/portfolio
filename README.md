@@ -50,6 +50,8 @@ Read these in order before implementing:
 3. [PROJECT_PLAN.md](./PROJECT_PLAN.md) — product goals, information architecture, data model, security, roadmap and acceptance criteria.
 4. [DESIGN_REFERENCE.md](./DESIGN_REFERENCE.md) — Figma screen links, design tokens and known design cleanup.
 5. [IMPLEMENTATION_STATUS.md](./IMPLEMENTATION_STATUS.md) — verified completed work, current limitations and next action.
+6. [design/figma/README.md](./design/figma/README.md) — Figma export package, native source handoff and asset organization.
+7. [design/tokens.json](./design/tokens.json) and [design/tokens.css](./design/tokens.css) — portable design tokens.
 
 ## Repository structure
 
