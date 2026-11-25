@@ -2,7 +2,7 @@
 
 **Last consolidated:** 2026-11-25  
 **Working branch:** feat/archive-public-v1  
-**Branch head after handoff docs:** b51340ff63e8cc67f535a23f46a24177f5599e9d  
+**Initial documentation consolidation commit:** b51340ff63e8cc67f535a23f46a24177f5599e9d  
 **Default branch:** main (not modified by this handoff)
 
 ## Completed and present in GitHub
